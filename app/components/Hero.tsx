@@ -57,11 +57,11 @@ export default function Hero() {
             <div className="inline-block px-3 py-1 rounded-full border border-primary-container/20 bg-primary-container/5">
               <span className="text-xs font-bold tracking-widest uppercase text-primary-container flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-green-500" />
-                System Status: Operational
+                Building Scalable Web Systems
               </span>
             </div>
             <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight">
-              AI-Powered <br />
+              I'm Adnan <br />
               <span className="bg-gradient-to-r from-[#00F2FF] to-[#4D96FF] bg-clip-text text-transparent">
                 Full Stack
               </span>{" "}
@@ -69,9 +69,10 @@ export default function Hero() {
               Developer
             </h1>
             <p className="text-on-surface-variant text-lg max-w-lg leading-relaxed">
-              Engineering intelligence into the modern web. Specialized in
-              building high-performance architectures where neural networks meet
-              seamless user experiences.
+              Full Stack Web Developer focused on designing and developing
+              scalable web applications, SaaS products, and robust API-driven
+              systems with a strong emphasis on performance and clean
+              architecture.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <button className="relative group overflow-hidden bg-gradient-to-r from-[#00F2FF] to-[#4D96FF] text-[#00363a] px-8 py-4 rounded-md font-bold uppercase tracking-widest transition-all pixel-corners">
@@ -108,22 +109,25 @@ export default function Hero() {
           >
             <span className="text-xs font-bold tracking-widest uppercase text-primary-container flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              System Status: Operational
+              Building Scalable Web Systems
             </span>
           </motion.div>
 
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight">
-            AI-Powered <br />
+            I'm Adnan <br />
             <span className="bg-gradient-to-r from-[#00F2FF] to-[#4D96FF] bg-clip-text text-transparent">
               {isClient && (
                 <TypeAnimation
                   sequence={[
-                    "Full Stack",
+                    "Full Stack Web",
                     2000,
-                    "Neural",
+                    "SaaS Platform",
                     2000,
-                    "Gaming",
+                    "Scalable Web Apps",
                     2000,
+                    "React & Next.js",
+                    2000,
+                    "Laravel Backend",
                   ]}
                   wrapper="span"
                   speed={50}
@@ -141,9 +145,10 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-on-surface-variant text-lg max-w-lg leading-relaxed"
           >
-            Engineering intelligence into the modern web. Specialized in
-            building high-performance architectures where neural networks meet
-            seamless user experiences.
+            Full Stack Web Developer focused on designing and developing
+            scalable web applications, SaaS products, and robust API-driven
+            systems with a strong emphasis on performance and clean
+            architecture.
           </motion.p>
 
           <motion.div

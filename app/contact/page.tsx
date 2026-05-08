@@ -21,13 +21,13 @@ const contactInfo = [
   {
     icon: "alternate_email",
     label: "Electronic Mail",
-    value: "hello@neuralarchitect.io",
-    link: "mailto:hello@neuralarchitect.io",
+    value: "abbasisami939@gmail.com",
+    link: "mailto:abbasisami939@gmail.com",
   },
   {
     icon: "location_on",
     label: "Base Operations",
-    value: "Dubai, United Arab Emirates",
+    value: "HYD, Pakistan",
     link: "#",
   },
 ];
@@ -284,7 +284,7 @@ function ContactFormSection({
             <motion.input
               whileFocus={{ scale: 1.01 }}
               className="w-full bg-surface-container-lowest border-none rounded-lg p-4 text-on-surface placeholder:text-slate-600 focus:ring-1 focus:ring-primary-container focus:shadow-[0_0_15px_rgba(0,242,255,0.15)] transition-all outline-none"
-              placeholder="John Doe"
+              placeholder="Adnan"
               type="text"
               name="name"
               value={formData.name}
@@ -300,7 +300,7 @@ function ContactFormSection({
             <motion.input
               whileFocus={{ scale: 1.01 }}
               className="w-full bg-surface-container-lowest border-none rounded-lg p-4 text-on-surface placeholder:text-slate-600 focus:ring-1 focus:ring-primary-container focus:shadow-[0_0_15px_rgba(0,242,255,0.15)] transition-all outline-none"
-              placeholder="john@domain.com"
+              placeholder="adnan@domain.com"
               type="email"
               name="email"
               value={formData.email}

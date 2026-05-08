@@ -54,7 +54,6 @@ export default function Home() {
         <Analyzer />
         <Testimonials />
       </main>
-      <Footer />
     </div>
   );
 }

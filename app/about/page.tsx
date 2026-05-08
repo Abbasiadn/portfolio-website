@@ -19,65 +19,71 @@ const PARTICLE_POSITIONS = generateParticlePositions(25);
 
 const techStack = [
   {
-    name: "Azure Cloud",
-    icon: "cloud",
-    description: "Enterprise Architecture",
+    name: "React.js",
+    icon: "code",
+    description: "Frontend Development",
   },
-  { name: "Python", icon: "terminal", description: "Scripting & AI" },
-  { name: "Kubernetes", icon: "hub", description: "Orchestration" },
-  { name: "PostgreSQL", icon: "database", description: "Data Modeling" },
-  { name: "TensorFlow", icon: "memory", description: "Neural Nets" },
   {
-    name: "Terraform",
-    icon: "security",
-    description: "Infrastructure as Code",
+    name: "Next.js",
+    icon: "bolt",
+    description: "Full Stack Web Apps",
+  },
+  {
+    name: "Node.js",
+    icon: "node",
+    description: "Backend Development",
+  },
+  {
+    name: "Laravel",
+    icon: "layers",
+    description: "API & Backend Systems",
+  },
+  {
+    name: "REST APIs",
+    icon: "api",
+    description: "Integration & Services",
+  },
+  {
+    name: "PostgreSQL / MySQL",
+    icon: "database",
+    description: "Database Design",
   },
 ];
-
 const timelineData = [
   {
-    title: "Principal Cloud Architect",
-    company: "Neural Systems Corp",
-    period: "2020 — Present",
+    title: "Software Engineer",
+    company: "Intrapreneur",
+    period: "Sep 2024 — Present",
     highlights: [
-      "Led the migration of 200+ microservices to Azure Kubernetes Service.",
-      "Implemented automated AI-driven cost optimization, saving $2M annually.",
+      "Developing scalable web applications using modern full stack technologies.",
+      "Building and maintaining SaaS-based features with focus on performance and usability.",
+      "Working on backend APIs and frontend interfaces for production systems.",
     ],
     active: true,
   },
   {
-    title: "Senior DevOps Engineer",
-    company: "Skyline Solutions",
-    period: "2016 — 2020",
-    description:
-      "Designed CI/CD pipelines for high-traffic financial platforms using Jenkins and Azure DevOps. Reduced deployment failure rate by 65% through robust IAC implementation.",
-    active: false,
-  },
-  {
-    title: "Systems Administrator",
-    company: "Legacy Tech Group",
-    period: "2012 — 2016",
-    description:
-      "Managed hybrid infrastructure and virtualized environments. Spearheaded the first transition from on-prem to cloud storage solutions.",
+    title: "Web & PHP Developer Intern",
+    company: "Hidaya Software House",
+    period: "Feb 2024 — May 2024",
+    highlights: [
+      "Worked on web development projects using PHP and modern frontend technologies.",
+      "Developed and maintained dynamic web applications and admin panels.",
+      "Collaborated with senior developers to improve code quality and system functionality.",
+    ],
     active: false,
   },
 ];
 
 const certifications = [
   {
-    title: "Microsoft Certified: Azure Solutions Architect Expert",
-    validUntil: "Valid until 2026",
+    title: "MERN Stack Development",
+    validUntil: "IBA / Government of Sindh • 4 Months",
   },
   {
-    title: "CKA: Certified Kubernetes Administrator",
-    validUntil: "CNCF Foundation",
-  },
-  {
-    title: "HashiCorp Certified: Terraform Associate",
-    validUntil: "Infrastructure Expert",
+    title: "PHP Programming",
+    validUntil: "ZABTECH ITVE Hyderabad • 4 Months",
   },
 ];
-
 export default function AboutPage() {
   const [mounted, setMounted] = useState(false);
 
@@ -153,7 +159,7 @@ function HeroSection({ mounted }: { mounted: boolean }) {
         >
           <span className="w-2 h-2 rounded-full bg-[#00F2FF] animate-pulse" />
           <span className="text-xs font-headline uppercase tracking-widest font-bold">
-            Neural Architect
+            Full Stack Developer
           </span>
         </motion.div>
 
@@ -170,10 +176,11 @@ function HeroSection({ mounted }: { mounted: boolean }) {
           transition={{ delay: 0.3 }}
           className="text-lg md:text-xl text-on-surface-variant leading-relaxed max-w-2xl font-light"
         >
-          An Azure Solutions Architect dedicated to engineering high-performance
-          cloud ecosystems and neural networks. Specializing in bridging the gap
-          between legacy infrastructure and futuristic AI-driven automation. I
-          design systems that don't just scale—they evolve.
+          I am a Computer Science graduate and Full Stack Engineer focused on
+          building scalable web applications, SaaS platforms, and
+          high-performance systems. I specialize in system architecture,
+          algorithm optimization, and API-driven development using modern
+          technologies.
         </motion.p>
 
         <motion.div
@@ -182,9 +189,9 @@ function HeroSection({ mounted }: { mounted: boolean }) {
           transition={{ delay: 0.5 }}
           className="mt-10 flex gap-4"
         >
-          <StatItem value="12+" label="Years Experience" />
+          <StatItem value="2+" label="Years Experience" />
           <div className="w-px h-12 bg-outline-variant/30 self-center" />
-          <StatItem value="85+" label="Cloud Deployments" />
+          <StatItem value="10+" label="Project Completed" />
         </motion.div>
       </motion.div>
 
@@ -445,7 +452,7 @@ function EducationCertSection({ certifications }: any) {
             <h3 className="font-headline font-bold text-lg">
               M.S. in Computer Science
             </h3>
-            <p className="text-sm text-slate-400 mb-2">Stanford University</p>
+            <p className="text-sm text-slate-400 mb-2"> University Of Sindh </p>
             <p className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">
               Specialization in AI & Distributed Systems
             </p>
@@ -459,10 +466,11 @@ function EducationCertSection({ certifications }: any) {
             className="p-6 bg-surface-container-low rounded-xl border-l-4 border-outline-variant"
           >
             <h3 className="font-headline font-bold text-lg">
-              B.S. in Software Engineering
+              B.S. in Computer Science
             </h3>
-            <p className="text-sm text-slate-400">
-              National University of Computing
+            <p className="text-sm text-slate-400">University of Sindh</p>
+            <p className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">
+              Specialization in computing & Algorithm
             </p>
           </motion.div>
         </div>

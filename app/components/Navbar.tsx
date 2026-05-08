@@ -98,9 +98,9 @@ export default function Navbar() {
               >
                 <h1
                   className="text-2xl font-bold tracking-tighter bg-gradient-to-r from-[#00F2FF] to-[#4D96FF] bg-clip-text text-transparent glitch-text"
-                  data-text="NEURAL_ARCHITECT"
+                  data-text="ADNAN_ABBASI"
                 >
-                  NEURAL_ARCHITECT
+                  ADNAN_ABBASI
                 </h1>
                 <motion.div
                   className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-[#00F2FF] to-transparent"
